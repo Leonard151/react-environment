@@ -1,0 +1,11 @@
+{
+  "env": {
+    "development": {
+      "persets": [ "es2015", "stage-0", "react" ],
+      "plugins": ["react-hot-loader/babel"]
+    },
+    "production": {
+      "presets": [[ "es2015", { "modules": false, "loose": true }, "stage-0", "react"]]
+    }
+  }
+}
